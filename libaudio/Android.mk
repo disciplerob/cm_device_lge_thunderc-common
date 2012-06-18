@@ -1,3 +1,5 @@
+ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),thunderc)
+
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
@@ -53,3 +55,5 @@ LOCAL_CFLAGS += -fno-short-enums
 #endif
 
 include $(BUILD_SHARED_LIBRARY)
+
+endif
