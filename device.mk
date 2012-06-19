@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += device/lge/thunderc-common/prebuilt/init.qcom.bt.sh:system
 
 # configs
 PRODUCT_COPY_FILES += device/lge/thunderc-common/configs/AudioFilter.csv:system/etc/AudioFilter.csv 
-PRODUCT_COPY_FILES += device/lge/thunderc-common/configs/media_profiles.xml:system/etc/media_profiles.xml 
 PRODUCT_COPY_FILES += device/lge/thunderc-common/configs/thunderc_keypad.kl:system/usr/keylayout/thunderc_keypad.kl 
 PRODUCT_COPY_FILES += device/lge/thunderc-common/configs/thunderc_keypad.kcm.bin:system/usr/keychars/thunderc_keypad.kcm.bin 
 PRODUCT_COPY_FILES += device/lge/thunderc-common/configs/7k_handset.kl:system/usr/keylayout/7k_handset.kl 
