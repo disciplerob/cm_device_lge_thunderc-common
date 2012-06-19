@@ -48,6 +48,17 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 # Use dalvik parameters for a 512 MB device
 $(call inherit-product, frameworks/base/build/phone-hdpi-512-dalvik-heap.mk)
 
+# Custom bootlogo
+PRODUCT_COPY_FILES += \
+    device/lge/thunderc-common/bootimages/opening_01.rle:root/bootimages/opening_01.rle \
+    device/lge/thunderc-common/bootimages/opening_02.rle:root/bootimages/opening_02.rle \
+    device/lge/thunderc-common/bootimages/opening_03.rle:root/bootimages/opening_03.rle \
+    device/lge/thunderc-common/bootimages/opening_04.rle:root/bootimages/opening_04.rle \
+    device/lge/thunderc-common/bootimages/opening_05.rle:root/bootimages/opening_05.rle \
+    device/lge/thunderc-common/bootimages/opening_06.rle:root/bootimages/opening_06.rle \
+    device/lge/thunderc-common/bootimages/opening_07.rle:root/bootimages/opening_07.rle \
+    device/lge/thunderc-common/bootimages/opening_08.rle:root/bootimages/opening_08.rle \
+
 # Publish that we support the live wallpaper feature.
 PRODUCT_COPY_FILES += \
     packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
