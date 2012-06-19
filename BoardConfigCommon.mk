@@ -85,7 +85,7 @@ ENABLE_JSC_JIT := true
 
 # Mass Storage for ICS
 BOARD_USE_USB_MASS_STORAGE_SWITCH := true
-BOARD_CUSTOM_USB_CONTROLLER := ../../device/lge/thunderc/prebuilt/UsbController.cpp
+BOARD_CUSTOM_USB_CONTROLLER := ../../device/lge/thunderc-common/prebuilt/UsbController.cpp
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/usb_mass_storage/lun0/file
 #TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun/file
 BOARD_UMS_LUNFILE := /sys/devices/platform/msm_hsusb/gadget/lun0/file
@@ -122,7 +122,7 @@ TARGET_NO_RADIOIMAGE := true
 #BOARD_USE_FROYO_LIBCAMERA := true
 
 
-BOARD_CUSTOM_BRCM_PATCHRAM_PLUS := ../../../device/lge/thunderc/prebuilt/brcm_patchram_plus.c
+BOARD_CUSTOM_BRCM_PATCHRAM_PLUS := ../../../device/lge/thunderc-common/prebuilt/brcm_patchram_plus.c
 
 
 #ICS settings
