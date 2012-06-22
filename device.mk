@@ -64,6 +64,7 @@ PRODUCT_COPY_FILES += \
     packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
 PRODUCT_COPY_FILES += \
+    device/lge/thunderc-common/init.rc:root/init.rc \
     device/lge/thunderc-common/prebuilt/initlogo.rle:root/initlogo.rle \
     device/lge/thunderc-common/prebuilt/init.qcom.sh:root/init.qcom.sh \
 #    device/lge/thunderc-common/prebuilt/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh
